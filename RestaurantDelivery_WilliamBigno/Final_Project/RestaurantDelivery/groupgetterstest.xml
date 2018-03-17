@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllGroups">
+	<groups>
+		<run>
+			<include name="GettersGroup"></include>
+		</run>
+	</groups>
+	<test name="Categories">
+		<classes>
+			<class name="restaurant.CS.Test.TestNG.UserDAOTestNG"/>
+			<class name="restaurant.CS.Test.TestNG.ReviewDAOTestNG"/>
+			<class name="restaurant.CS.Test.TestNG.PaymentDAOTestNG"/>
+			<class name="restaurant.CS.Test.TestNG.OrderDAOTestNG"/>
+			<class name="restaurant.CS.Test.TestNG.LocationDAOTestNG"/>
+			<class name="restaurant.CS.Test.TestNG.ItemDAOTestNG"/>
+		</classes>
+	</test>
+</suite>

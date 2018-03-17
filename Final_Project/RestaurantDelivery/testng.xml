@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation">
+	<test name="TestNG Test Cases">
+		<classes>
+			<class name="restaurant.CS.Test.TestNG.UserDAOTestNG">
+				<methods>
+					<include name="FirstReviewTest"></include>
+					<include name="ReviewTest"></include>
+				</methods>
+			</class>
+			<class name="restaurant.CS.Test.TestNG.ReviewDAOTestNG">
+				<methods>
+					<include name="FirstReviewTest"></include>
+					<include name="ReviewTest"></include>
+				</methods>
+			</class>
+			<class name="restaurant.CS.Test.TestNG.PaymentDAOTestNG">
+				<methods>
+					<include name="FirstReviewTest"></include>
+					<include name="ReviewTest"></include>
+				</methods>
+			</class>
+			<class name="restaurant.CS.Test.TestNG.OrderDAOTestNG">
+				<methods>
+					<include name="FirstReviewTest"></include>
+					<include name="ReviewTest"></include>
+				</methods>
+			</class>
+			<class name="restaurant.CS.Test.TestNG.LocationDAOTestNG">
+				<methods>
+					<include name="FirstReviewTest"></include>
+					<include name="ReviewTest"></include>
+				</methods>
+			</class>
+			<class name="restaurant.CS.Test.TestNG.ItemDAOTestNG">
+				<methods>
+					<include name="FirstReviewTest"></include>
+					<include name="ReviewTest"></include>
+				</methods>
+			</class>				
+		</classes>
+	</test>
+</suite>
